@@ -115,6 +115,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="alice.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="human.h" />
+    <ClInclude Include="MenuOptions.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="stan.h" />
+    <ClInclude Include="tim.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="alice.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="human.cpp" />
+    <ClCompile Include="MenuOptions.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="stan.cpp" />
+    <ClCompile Include="tim.cpp" />
+    <ClCompile Include="Zilch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
